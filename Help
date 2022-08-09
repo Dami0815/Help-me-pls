@@ -1,0 +1,50 @@
+//I Use C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Test_agaain
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Löse die Aufgaben");
+            Console.WriteLine("234 + 354 = ");
+            string Lösung = Console.ReadLine();
+            Console.WriteLine("Antwort ist " + Lösung);
+            int Antwort = 588;
+            if (588 < 588)
+            {
+                Console.WriteLine("Richtig");
+            }
+            else
+            {
+                Console.WriteLine("Falsch");
+            }
+            char buchstabe = A;
+            char buchstabe1 = B;
+            char buchstabe2 = C;
+            Console.WriteLine("Wieviele Bundesländer hat Deutschland?");
+            Console.WriteLine("A :10");
+            Console.WriteLine("B :16");
+            Console.WriteLine("C :14");
+            string Solution = Console.ReadLine();
+            Console.WriteLine("Antwort ist" + Solution);
+            char buchstabe1 = B;
+            if (B)
+            { 
+                Console.WriteLine("Richtig!");
+            }
+            else
+            {
+                Console.WriteLine("Falsch!");
+            }
+            Console.ReadKey();
+            }
+
+            
+        }
+    }
